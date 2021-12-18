@@ -1,24 +1,22 @@
-# README
+# rails-tailwindcss-example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails v7 & Tailwind CSS v3 の検証用リポジトリです
 
-Things you may want to cover:
+## 使い方
 
-* Ruby version
+```sh
+git clone https://github.com/notakaos/rails-tailwindcss-example.git
+cd rails-tailwindcss-example
+bin/bundle install
+# Railsサーバー起動
+bin/rails server
 
-* System dependencies
+# (別ターミナルを開いて) Tailwind CSS ウォッチモード起動
+bin/rails tailwindcss:watch
+```
 
-* Configuration
+http://localhost:3000/hello/tailwind
 
-* Database creation
+## LICENSE
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+MIT License
